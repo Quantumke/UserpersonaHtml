@@ -778,7 +778,7 @@
 				height = chart.canvas.height;
 
 			if (window.devicePixelRatio) {
-				ctx.canvas.style.width = "500px";
+				ctx.canvas.style.width = "400px";
 				ctx.canvas.style.height = "300px";
 				ctx.canvas.height = height * window.devicePixelRatio;
 				ctx.canvas.width = width * window.devicePixelRatio;
